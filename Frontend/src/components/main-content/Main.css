@@ -1,0 +1,72 @@
+.MainTitle {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 200px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 30%;
+  background-color: teal;
+  min-height: 282px;
+  min-width: 226px;
+  margin: 10px;
+}
+
+.showMore {
+  margin: 30px;
+  text-align: center;
+}
+
+.showMore button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .SideNav {
+    display: none;
+  }
+
+  .Main {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .flex-container {
+    padding: 0 130px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .flex-container {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .flex-container {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 650px) {
+  .flex-container {
+    padding: 0;
+  }
+}

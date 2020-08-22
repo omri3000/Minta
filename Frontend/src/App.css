@@ -1,0 +1,31 @@
+.SideNav {
+  width: 230px;
+  float: left;
+  height: 100vh;
+  background: #282828;
+  position: fixed;
+}
+
+.Main {
+  margin-left: 230px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .SideNav {
+    display: none;
+  }
+
+  .Main {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .SideNav {
+    display: none;
+  }
+
+  .Main {
+    margin-left: 0;
+  }
+}
